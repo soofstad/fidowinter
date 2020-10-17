@@ -79,6 +79,7 @@ def send_email(sender: str, recipient: str, message_text: str, subject: str = "F
     service = _get_gmail_service()
     message = _create_message(sender, recipient, subject, message_text)
     _send_message(service, sender, message)
+    print(f"Mail sent to {recipient}!")
 
 
 if __name__ == '__main__':
