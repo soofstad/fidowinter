@@ -55,8 +55,8 @@ def send_mail(date: datetime, forecast):
     That is {(date - datetime.now(tz=timezone.utc)).days} day(s) from now.
     
     The forecast on that day is as follows;
-        - Temperature: {forecast["air_temperature"]}
-        - Precipitation: {forecast["precipitation_amount"]}
+        - Temperature: {forecast["air_temperature"]}°C
+        - Precipitation: {forecast["precipitation_amount"]} millimeter
     """
     for email in Config.NOTIFICATION_SQUAD:
         send_email(sender=Config.EMAIL_SENDER, recipient=email, message_text=message)
