@@ -1,4 +1,8 @@
 .venv
 .vscode
+.idea
 *.egg
 *.egg-info
+credentials.json
+/token.pickle
+__pycache__
