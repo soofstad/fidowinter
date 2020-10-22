@@ -1,2 +1,3 @@
 sec=zboI8QTUkIhtpB9NXmK0
 gitlab=EzB9opdcoswBYcJ5sHVU
+az-sc=rpPTC991teIdCAWo9jx1WU3HDupPN/sbtHJxlK0+X0aYoTWkqgsdkpXZ/AcoqvGi+9kfPRU0aeGeqK2L1ntHEw==
